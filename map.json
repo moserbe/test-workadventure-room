@@ -796,7 +796,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"RoomRed"
+                         "value":"RoomRed1"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1064,13 +1064,30 @@
                         {
                          "name":"openTab",
                          "type":"string",
-                         "value":"https:\/\/teams.microsoft.com\/l\/meetup-join\/19%3ameeting_YTg3NDVmMWMtMWQ5MC00MzExLWFlNzgtZDdmNmY4NGY1M2Y5%40thread.v2\/0?context=%7b%22Tid%22%3a%220ae51e19-07c8-4e4b-bb6d-648ee58410f4%22%2c%22Oid%22%3a%221e697eb8-f445-4564-b07a-748af38a3385%22%7d"
+                         "value":"https:\/\/teams.microsoft.com\/l\/meetup-join\/19%3ameeting_OWIwNGZiZDMtODljYi00MzY1LWEwMzEtOWRmOTgxMDU2OTNh%40thread.v2\/0?context=%7b%22Tid%22%3a%220ae51e19-07c8-4e4b-bb6d-648ee58410f4%22%2c%22Oid%22%3a%227237b167-de1c-4ec5-8a10-e4983e5d5614%22%7d"
                         }],
                  "rotation":0,
                  "visible":true,
                  "width":672.545666666667,
                  "x":822.393833333333,
                  "y":304.878833333333
+                }, 
+                {
+                 "type":"area",
+                 "height":545.333333333333,
+                 "id":51,
+                 "name":"silent",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":957.333333333333,
+                 "x":814.666666666667,
+                 "y":257.333333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1241,7 +1258,7 @@
          "y":0
         }],
  "nextlayerid":128,
- "nextobjectid":51,
+ "nextobjectid":53,
  "orientation":"orthogonal",
  "properties":[
         {
