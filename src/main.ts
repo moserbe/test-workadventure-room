@@ -16,6 +16,36 @@ WA.onInit().then(() => {
         const time = today.getHours() + ":" + today.getMinutes();
         currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
     })
+	
+	
+    WA.room.area.onEnter('area1').subscribe(() => {
+        console.log('YOU ARE IN AREA 1');
+		
+		WA.state.saveVariable('showTopics', {
+		    'showTopics': true
+		}).catch(e => console.error('Something went wrong while saving variable', e));		
+		
+    })	
+	
+    WA.room.area.onEnter('area2').subscribe(() => {
+        console.log('YOU ARE IN AREA 2');
+		
+		WA.state.saveVariable('showTopics', {
+		    'showTopics': false
+		}).catch(e => console.error('Something went wrong while saving variable', e));		
+		
+    })		
+	
+	
+	WA.state.onVariableChange('showTopics').subscribe((value) => {
+		console.log('Variable "showTopics" changed. New value: ', value);
+		
+		if (value.showTopics) {
+			WA.room.showLayer("topics");		
+		} else {
+			WA.room.hideLayer("topics");		
+		}
+	});	
 
     WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
 
