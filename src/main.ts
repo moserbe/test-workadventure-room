@@ -6,6 +6,10 @@ console.log('Script started successfully');
 
 let currentPopup: any = undefined;
 
+interface ShowTopics {
+  showTopics: boolean;
+}
+
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
@@ -37,7 +41,7 @@ WA.onInit().then(() => {
     })		
 	
 	
-	WA.state.onVariableChange('showTopics').subscribe((value) => {
+	WA.state.onVariableChange('showTopics').subscribe((value : ShowTopics) => {
 		console.log('Variable "showTopics" changed. New value: ', value);
 		
 		if (value.showTopics === true) {
