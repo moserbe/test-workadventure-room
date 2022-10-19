@@ -40,7 +40,7 @@ WA.onInit().then(() => {
 	WA.state.onVariableChange('showTopics').subscribe((value) => {
 		console.log('Variable "showTopics" changed. New value: ', value);
 		
-		if (value.showTopics) {
+		if (value.showTopics === true) {
 			WA.room.showLayer("topics");		
 		} else {
 			WA.room.hideLayer("topics");		
