@@ -577,7 +577,7 @@
          "name":"topics",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":93,
          "x":0,
          "y":0
