@@ -576,6 +576,12 @@
          "id":128,
          "name":"topics",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"visible",
+                 "type":"string",
+                 "value":"{{{ showTopics }}}"
+                }],
          "type":"tilelayer",
          "visible":false,
          "width":93,
@@ -1228,6 +1234,45 @@
          "y":0
         }, 
         {
+         "draworder":"topdown",
+         "id":129,
+         "name":"configuration",
+         "objects":[
+                {
+                 "class":"variable",
+                 "height":0,
+                 "id":57,
+                 "name":"showTopics",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Show Topics be shown"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":false
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":124.242424242424,
+                 "y":127.272727272727
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -1389,8 +1434,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":129,
- "nextobjectid":57,
+ "nextlayerid":130,
+ "nextobjectid":58,
  "orientation":"orthogonal",
  "properties":[
         {
