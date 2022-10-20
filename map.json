@@ -1272,7 +1272,7 @@
                          "value":true
                         }, 
                         {
-                         "name":"writeableBy",
+                         "name":"writableBy",
                          "type":"string",
                          "value":"admin"
                         }],
