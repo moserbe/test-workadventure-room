@@ -39,9 +39,11 @@ WA.onInit().then(() => {
 		}).catch(e => console.error('Something went wrong while saving variable', e));		
 		
     })		
+
 	
 	
-	WA.state.onVariableChange('showTopics').subscribe((value : ShowTopics) => {
+	
+	WA.state.onVariableChange('showTopics').subscribe((value) => {
 		console.log('Variable "showTopics" changed. New value: ', value);
 		
 		if (value.showTopics === true) {
