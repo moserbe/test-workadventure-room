@@ -1179,7 +1179,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/inside-docupedia.bosch.com\/confluence\/display\/PESWA\/Main+Hall"
+                         "value":"https:\/\/inside-docupedia.bosch.com\/confluence\/display\/PESWA\/Main+Hall+2023-11-09"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1196,7 +1196,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/inside-docupedia.bosch.com\/confluence\/display\/PESWA\/Agenda"
+                         "value":"https:\/\/inside-docupedia.bosch.com\/confluence\/display\/PESWA\/Agenda+2023-11-09"
                         }],
                  "rotation":0,
                  "visible":true,
