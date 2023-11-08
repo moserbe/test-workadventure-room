@@ -1299,50 +1299,6 @@
                  "width":121,
                  "x":1246.5,
                  "y":239.5
-                }, 
-                {
-                 "height":68.909,
-                 "id":68,
-                 "name":"pc1",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"http:\/\/jamesfriend.com.au\/pce-js\/ibmpc-games\/"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":67.879,
-                 "x":349.0605,
-                 "y":967.5455
-                }, 
-                {
-                 "height":72.909,
-                 "id":69,
-                 "name":"pc2",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"http:\/\/jamesfriend.com.au\/pce-js\/ibmpc-games\/"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":67.879,
-                 "x":352.0605,
-                 "y":855.5455
                 }],
          "opacity":1,
          "type":"objectgroup",
