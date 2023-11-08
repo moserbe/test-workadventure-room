@@ -1301,14 +1301,14 @@
                  "y":239.5
                 }, 
                 {
-                 "height":56.909,
+                 "height":68.909,
                  "id":68,
                  "name":"pc1",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.pcjs.org\/software\/pcx86\/sys\/windows\/3.10\/"
+                         "value":"http:\/\/jamesfriend.com.au\/pce-js\/ibmpc-games\/"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -1320,17 +1320,17 @@
                  "visible":true,
                  "width":67.879,
                  "x":349.0605,
-                 "y":959.5455
+                 "y":967.5455
                 }, 
                 {
-                 "height":56.909,
+                 "height":72.909,
                  "id":69,
                  "name":"pc2",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.pcjs.org\/software\/pcx86\/app\/ibm\/basic\/1.00\/donkey\/"
+                         "value":"http:\/\/jamesfriend.com.au\/pce-js\/ibmpc-games\/"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -1341,8 +1341,8 @@
                  "type":"area",
                  "visible":true,
                  "width":67.879,
-                 "x":350.0605,
-                 "y":867.5455
+                 "x":352.0605,
+                 "y":855.5455
                 }],
          "opacity":1,
          "type":"objectgroup",
