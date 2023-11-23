@@ -964,7 +964,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/inside-docupedia.bosch.com\/confluence\/display\/PESWA\/Feedback+2023-11"
+                         "value":"https:\/\/inside-docupedia.bosch.com\/confluence\/display\/PESWA\/Feedback+2023-12"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -1195,7 +1195,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/inside-docupedia.bosch.com\/confluence\/display\/PESWA\/Agenda+2023-11"
+                         "value":"https:\/\/inside-docupedia.bosch.com\/confluence\/display\/PESWA\/Agenda+2023-12"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1291,7 +1291,7 @@
                     {
                      "color":"#00d400",
                      "halign":"center",
-                     "text":"PE-SWA Community Gathering",
+                     "text":"Community Gathering",
                      "wrap":true
                     },
                  "type":"",
