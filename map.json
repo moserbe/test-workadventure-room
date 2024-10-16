@@ -1154,6 +1154,40 @@
                  "y":104.5455
                 }, 
                 {
+                 "height":545.333333333333,
+                 "id":51,
+                 "name":"silent",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":957.333333333333,
+                 "x":814.666666666667,
+                 "y":257.333333333333
+                }, 
+                {
+                 "height":507.576,
+                 "id":53,
+                 "name":"showHallLInk",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/moserbe.github.io\/test-workadventure-room\/mainhall.html"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":935.212,
+                 "x":823.727333333333,
+                 "y":287.545333333333
+                }, 
+                {
                  "height":54.409,
                  "id":54,
                  "name":"openAgenda",
