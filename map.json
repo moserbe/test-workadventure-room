@@ -1159,7 +1159,7 @@
                  "name":"openAgenda",
                  "properties":[
                         {
-                         "name":"openTab",
+                         "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/inside-docupedia.bosch.com\/confluence\/display\/PESWA\/Agenda+2024-11"
                         }],
