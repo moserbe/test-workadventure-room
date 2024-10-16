@@ -964,7 +964,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/inside-docupedia.bosch.com\/confluence\/display\/PESWA\/Feedback+2023-12"
+                         "value":"https:\/\/moserbe.github.io\/test-workadventure-room\/feedback.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
